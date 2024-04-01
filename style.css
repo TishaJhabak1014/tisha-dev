@@ -365,6 +365,8 @@ article .icon {
   background: rgb(250, 250, 250);
   border: none;
   box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1); 
+  height: 90vh;
+  position: relative; /* Position relative to contain absolutely positioned child */
 }
 
 .project-img {
@@ -394,6 +396,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 100px;
 }
 
 .contact-info-upper-container {
@@ -438,14 +441,13 @@ footer p {
   text-align: center;
 }
 
-/* Add your CSS styles here */
+/* ABOUT SECTION */
 .about-container {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full height of the screen */
-  /* width: 100vw;  */
   margin-bottom: 5rem;
 }
 
@@ -453,8 +455,7 @@ footer p {
   background-color: #52546c; /* Background color for terminal view */
   border-radius: 10px;
   width: 80%;
-  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1); 
-  /* padding: 20px; */
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
 }
 
 .terminal-header {
@@ -485,7 +486,6 @@ footer p {
 
 .terminal-window {
   padding: 50px;
-  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);  */
 
 }
 
@@ -503,27 +503,23 @@ footer p {
   font-family: "Source Code Pro", monospace;
   color: #e4cc77;
 }
-/* Add your CSS styles here */
 
 /* Target the second child of .terminal-window */
 .return-statement > :nth-child(1) {
-  color: #94dce9; /* Change color as needed */
+  color: #94dce9; 
 }
 
 /* Target the third child of .terminal-window */
 .return-statement > :nth-child(2) {
-  color: #94dce9; /* Change color as needed */
+  color: #94dce9; 
 }
 .return-statement > :nth-child(3) {
-  color: #94dce9; /* Change color as needed */
+  color: #94dce9; 
 }
 .blinker {
-  font-weight: 800; /* Change color as needed */
+  font-weight: 800; 
 }
-/* 
-.source-code pro-<uniquifier> {
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+
+.arrow {
+  transform: rotate(180deg);
+}
