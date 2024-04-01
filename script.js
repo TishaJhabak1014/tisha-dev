@@ -50,14 +50,3 @@ function toggleBlinking() {
 // Call toggleBlinking function every 500 milliseconds to create blinking effect
 setInterval(toggleBlinking, 500);
 
-fetch('https://api.dicebear.com/8.x/avataaars/svg?seed=Sassy')
-        .then(response => response.text())
-        .then(data => {
-            // Create img element for the avatar and append to container
-            const avatarContainer = document.getElementById('avatar-container');
-            const avatarImg = document.createElement('img');
-            avatarImg.src = 'data:image/svg+xml;base64,' + btoa(data); // Convert SVG data to base64
-            avatarImg.alt = 'Avatar';
-            avatarContainer.appendChild(avatarImg);
-        })
-        .catch(error => console.error('Error fetching avatar:', error));

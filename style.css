@@ -272,6 +272,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  width: auto;
 }
 
 .about-details-container {
@@ -361,24 +362,29 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  border: none;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1); 
 }
 
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
-}
+  height: 200px;
+}  
 
 .project-title {
   margin: 1rem;
   color: black;
 }
 
+.project-text{
+  padding: 8px;
+  text-align: justify;
+}
 .project-btn {
   color: black;
-  border-color: rgb(163, 163, 163);
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1); 
 }
 
 /* CONTACT */
