@@ -9,6 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
+  background-color: #f1e4d9;
 }
 
 html {
@@ -445,6 +447,7 @@ footer p {
   background-color: #52546c; /* Background color for terminal view */
   border-radius: 10px;
   width: 80%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); 
   /* padding: 20px; */
 }
 
@@ -476,6 +479,8 @@ footer p {
 
 .terminal-window {
   padding: 50px;
+  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);  */
+
 }
 
 .statement {
@@ -483,11 +488,13 @@ footer p {
 }
 
 .input-statement {
+  font-family: "Source Code Pro", monospace;
   color: #cfc1c1;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .return-statement {
+  font-family: "Source Code Pro", monospace;
   color: #e4cc77;
 }
 /* Add your CSS styles here */
@@ -504,4 +511,13 @@ footer p {
 .return-statement > :nth-child(3) {
   color: #94dce9; /* Change color as needed */
 }
-
+.blinker {
+  font-weight: 800; /* Change color as needed */
+}
+/* 
+.source-code pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
