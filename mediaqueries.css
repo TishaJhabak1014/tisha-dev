@@ -6,6 +6,9 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  /* .about-container {
+    flex-wrap: wrap;
+  } */
   #contact,
   #projects {
     height: fit-content;
@@ -17,7 +20,10 @@
     display: none;
   }
   #hamburger-nav {
+    /* display: flex; */
+    /* margin-right: 15px; */
     display: flex;
+
   }
   #experience,
   .experience-details-container {
@@ -43,26 +49,78 @@
     margin: 0 auto 2rem;
   }
   .about-container {
-    margin-top: 50px;
+    margin-top: 220px;
+  }
+  .project-text{
+    /* height: fit-content; */
+    padding: 7px;
+    height: 180px;
   }
 }
 
 @media screen and (max-width: 600px) {
+  #hamburger-nav {
+    /* display: flex; */
+    /* margin-right: 15px; */
+  margin-left: 500px;
+
+    display: flex;
+
+  }
+  footer {
+    margin-left: 120px;
+  }
+  
+  footer p {
+    /* margin-left: 100px; */
+  }
+      
   #contact,
   footer {
     height: 40vh;
+    /* align-self: center; */
+    margin-left: 120px;
+
+
   }
+  #projects{
+    align-self: center;
+    margin-top: 220px;
+    margin-left: 120px;
+    width: 80%;
+  }
+  /* #contact{
+    margin-bottom: 30px;
+    align-self: center;
+
+  } */
+  #contact {
+    /* text-align: center; Center-align the content inside the section */
+    margin-bottom: 50px;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center; /* Center-align flex items horizontally */
+    gap: 2rem; /* Adjust the gap between items as needed */
+  }
+  
   #profile {
     height: 83vh;
     margin-bottom: 0;
+    /* align-self: center; */
+    margin-left: 100px;
+
   }
   article {
     font-size: 1rem;
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
+
+  
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -99,5 +157,42 @@
   }
   .text-container {
     text-align: justify;
+  }
+  
+  
+  .about-container {
+    margin-top: 220px;
+    width: auto;
+    align-self: center;
+  }
+  .project-text{
+    /* height: fit-content; */
+    padding: 7px;
+    height: 130px;
+    font-size: smaller;
+  }
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .section__text__p1 {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .title {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  #about{
+    margin-top: 250px;
+    width: 100vb;
+  }
+  .about-container {
+    margin-top: 220px;
+  }
+  .project-text{
+    /* height: fit-content; */
+    padding: 7px;
+    height: 130px;
+    /* font-size: smaller; */
   }
 }
