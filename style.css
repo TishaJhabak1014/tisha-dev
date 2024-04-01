@@ -9,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  
   background-color: #f1e4d9;
 }
 
@@ -440,14 +439,15 @@ footer p {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full height of the screen */
-  width: 100vw; /* Full width of the screen */
+  /* width: 100vw;  */
+  margin-bottom: 5rem;
 }
 
 .terminal-view {
   background-color: #52546c; /* Background color for terminal view */
   border-radius: 10px;
   width: 80%;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); 
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1); 
   /* padding: 20px; */
 }
 
