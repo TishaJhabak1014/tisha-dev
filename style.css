@@ -38,6 +38,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  margin-left: 600px;
 }
 
 .nav-links {
@@ -59,13 +60,13 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
+/* .logo {
   font-size: 2rem;
 }
 
 .logo:hover {
   cursor: default;
-}
+} */
 
 /* HAMBURGER MENU */
 
@@ -103,6 +104,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  margin-left: 600px;
 }
 
 .menu-links a {
@@ -389,6 +391,9 @@ article .icon {
   box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1); 
 }
 
+.profile-rectifier{
+  margin-bottom: 50px;
+}
 /* CONTACT */
 
 #contact {
