@@ -20,6 +20,7 @@
 
   #hamburger-nav {
     display: flex;
+    margin-left: 500px;
   }
 
   #experience,
@@ -210,7 +211,7 @@
     width: auto;
     align-self: center;
   }
-  
+
   .project-text{
     padding: 7px;
     height: 130px;
