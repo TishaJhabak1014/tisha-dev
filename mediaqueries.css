@@ -6,9 +6,7 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  /* .about-container {
-    flex-wrap: wrap;
-  } */
+
   #contact,
   #projects {
     height: fit-content;
@@ -19,180 +17,203 @@
   #desktop-nav {
     display: none;
   }
-  #hamburger-nav {
-    /* display: flex; */
-    /* margin-right: 15px; */
-    display: flex;
 
+  #hamburger-nav {
+    display: flex;
   }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
+
   #profile,
   .section-container {
     display: block;
   }
+
   .arrow {
     display: none;
   }
+
   section,
   .section-container {
     height: fit-content;
   }
+
   section {
     margin: 0 5%;
   }
+
   .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
   .about-container {
     margin-top: 220px;
   }
+
   .project-text{
-    /* height: fit-content; */
     padding: 7px;
     height: 180px;
   }
+
 }
 
 @media screen and (max-width: 600px) {
   #hamburger-nav {
-    /* display: flex; */
-    /* margin-right: 15px; */
-  margin-left: 500px;
-
+    margin-left: 500px;
     display: flex;
 
   }
+
   footer {
-    margin-left: 120px;
+    margin-left: 200px;
   }
   
   footer p {
-    /* margin-left: 100px; */
+    padding: 10px;
   }
       
   #contact,
   footer {
     height: 40vh;
-    /* align-self: center; */
-    margin-left: 120px;
-
-
+    align-self: center;
+    margin-left: 130px;
   }
+
   #projects{
     align-self: center;
     margin-top: 220px;
-    margin-left: 120px;
-    width: 80%;
+    margin-left: 100px;
+    width: 90%;
   }
-  /* #contact{
-    margin-bottom: 30px;
-    align-self: center;
 
-  } */
   #contact {
-    /* text-align: center; Center-align the content inside the section */
+    text-align: center; 
     margin-bottom: 50px;
   }
   
   .contact-info-upper-container {
     display: flex;
-    justify-content: center; /* Center-align flex items horizontally */
-    gap: 2rem; /* Adjust the gap between items as needed */
+    justify-content: center; 
+    gap: 2rem; 
+    padding: 20px;
   }
   
   #profile {
     height: 83vh;
     margin-bottom: 0;
-    /* align-self: center; */
-    margin-left: 100px;
+    margin-left: 150px;
 
   }
+
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
     margin-bottom: 3rem;
   }
 
-  
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+
   }
+
   .contact-info-container {
     margin: 0;
   }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .experience-sub-title {
     font-size: 1.25rem;
   }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
   }
   
-  
   .about-container {
-    margin-top: 220px;
+    margin-top: 400px;
     width: auto;
     align-self: center;
   }
+
   .project-text{
-    /* height: fit-content; */
     padding: 7px;
     height: 130px;
     font-size: smaller;
   }
+
+  .btn-container,
+  .project-title{
+    font-size: 1rem;
+  }
+
+  .project-btn {
+      font-size: 0.8rem; 
+      padding: 0.5rem 0.8rem;
+  }
+
 }
-/* Media query for smaller screens */
+
 @media screen and (max-width: 768px) {
   .section__text__p1 {
-    font-size: 1.25rem; /* Adjust font size for smaller screens */
+    font-size: 1.25rem; 
   }
 
   .title {
-    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-size: 2rem; 
   }
 
   #about{
-    margin-top: 250px;
+    margin-top: 350px;
     width: 100vb;
   }
+
   .about-container {
-    margin-top: 220px;
+    margin-top: 400px;
+    width: auto;
+    align-self: center;
   }
+  
   .project-text{
-    /* height: fit-content; */
     padding: 7px;
     height: 130px;
-    /* font-size: smaller; */
+    font-size: smaller;
   }
 }
