@@ -11,9 +11,9 @@ const statements = [
   { input: 'Tisha.contactInfo', return: '["<a href=\'mailto:iamtisha22@gmail.com\'>iamtisha22@gmail.com</a>", "<a rel=\'noopener\' href=\'https://www.linkedin.com/in/tisha-jhabak-91a2a7206/\'>LinkedIn</a>", "<a rel=\'noopener\' href=\'https://github.com/TishaJhabak1014\'>GitHub</a>"]' },
   { input: 'Tisha.resume', return: '"<a rel=\'noopener\' href=\'/Tisha_resume_9.pdf\' target=\'_blank\'>Tisha.pdf</a>"' },
   { input: 'Tisha.blogs', return: '"<a rel=\'noopener\' href=\'/https://medium.com/@jhabaktisha22\' target=\'_blank\'>Tisha@medium</a>"' },
-  { input: 'Tisha.interests', return: '["design", "basketball", "cooking", "starcraft"]' },
+  { input: 'Tisha.interests', return: '["travelling", "hiking", "MCU (Marvel Cinematic Universe)", "trying new cuisines"]' },
   { input: 'Tisha.education', return: '"B. Software Engineering (Honours) - The University of Sydney, NSW"' },
-  { input: 'Tisha.skills', return: '["Java", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]' },
+  { input: 'Tisha.skills', return: '["Java", "Python", "SQL", "JavaScript", "React", "Node.js", "Tensorflow", "Git"]' },
   { input: '|', return: '' }
 
 ];
